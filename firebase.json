@@ -1,10 +1,6 @@
 {
   "hosting": {
-    "public": "vite",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "public": "dist/react_firebase_1",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
