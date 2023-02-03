@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import { auth, googlePrivider } from "../config/firbase-config";
 import { createUserWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-import { async } from "@firebase/util";
 
 export default function Auth() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  console.log(auth?.currentUser?.email);
 
   const signIn = async () => {
     try {
